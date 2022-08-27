@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.tvTipAmount.text = getString(R.string.tip_amount, 0.0)
+
         binding.btnCalculate.setOnClickListener {
             showTip()
         }
