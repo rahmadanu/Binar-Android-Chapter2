@@ -14,6 +14,8 @@ Binar Academy x Kampus Merdeka - Android Engineering: Chapter 2 Challenge
 - [x] Custom View (Fonts)
 - [x] App launcher icon
 
+<br></br>
+
 ## App Preview
 
 Tip time is an app that can calculate and round up tip
@@ -23,7 +25,7 @@ Tip time is an app that can calculate and round up tip
 
 </p>
 
-
+<br></br>
 
 ## Author
 
