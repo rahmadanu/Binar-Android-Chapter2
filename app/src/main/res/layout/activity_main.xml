@@ -16,16 +16,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/et_service"
-        android:layout_width="wrap_content"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_service"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:hint="Cost of service"
-        android:inputType="number"
         app:layout_constraintTop_toBottomOf="@id/iv_logo"
-        app:layout_constraintStart_toStartOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/et_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Cost of service"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
 
     <TextView
         android:id="@+id/tv_service"
@@ -33,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="How was the service?"
-        app:layout_constraintTop_toBottomOf="@id/et_service"
+        app:layout_constraintTop_toBottomOf="@id/til_service"
         app:layout_constraintStart_toStartOf="parent" />
 
     <RadioGroup
@@ -96,6 +105,6 @@
         android:layout_marginTop="20dp"
         android:text="@string/tip_amount"
         app:layout_constraintTop_toBottomOf="@id/btn_calculate"
-        app:layout_constraintStart_toStartOf="@id/btn_calculate" />
+        app:layout_constraintEnd_toEndOf="@id/btn_calculate" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
