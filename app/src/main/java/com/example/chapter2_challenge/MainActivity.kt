@@ -1,10 +1,9 @@
 package com.example.chapter2_challenge
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.chapter2_challenge.databinding.ActivityMainBinding
 import kotlin.math.ceil
-import kotlin.math.floor
 
 class MainActivity : AppCompatActivity() {
 
