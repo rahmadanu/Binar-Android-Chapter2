@@ -5,7 +5,7 @@ Binar Academy x Kampus Merdeka - Android Engineering: Chapter 2 Challenge
 
 - [x] Using Git
 - [x] View and ViewGroup (ConstraintLayout)
-- [x] Image file (.svg, .png, .jpg)t
+- [x] Image file (.svg, .png, .jpg)
 - [x] Text/color/theme adjustment
 
 ### Addition by Author
