@@ -1,4 +1,4 @@
-# Binar-Android-Chapter2
+# binar-android-chapter2
 Binar Academy x Kampus Merdeka - Android Engineering: Chapter 2 Challenge
 
 ### Criteria
